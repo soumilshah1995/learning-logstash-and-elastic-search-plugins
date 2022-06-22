@@ -24,3 +24,5 @@ output {
 
 * Download Dataset https://download.elastic.co/demos/logstash/gettingstarted/logstash-tutorial.log.gz
 * Download File beat : https://www.elastic.co/downloads/beats/filebeat
+
+* Inside your file beat directory where you have installed it create a new file lab2.yml
