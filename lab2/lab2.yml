@@ -1,0 +1,6 @@
+filebeat.inputs:
+- type: log
+  paths:
+    - C:/Users/s.shah/Downloads/Lab2/logstash-tutorial-dataset
+output.logstash:
+  hosts: ["localhost:5044"]
