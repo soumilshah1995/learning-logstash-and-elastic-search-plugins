@@ -26,3 +26,10 @@ output {
 * Download File beat : https://www.elastic.co/downloads/beats/filebeat
 
 * Inside your file beat directory where you have installed it create a new file lab2.yml
+
+```
+
+logstash -f  .\config\lab2.conf --config.reload.automatic
+
+.\filebeat.exe -e -c lab2.yml -d "log publish"
+```
